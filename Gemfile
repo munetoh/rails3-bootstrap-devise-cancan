@@ -30,3 +30,10 @@ group :test do
   gem 'email_spec'
   gem 'launchy'
 end
+
+# JS fix
+gem 'therubyracer'
+# test
+gem 'rubocop'
+gem 'brakeman'
+gem 'railroadmap', github: 'munetoh/railroadmap'
